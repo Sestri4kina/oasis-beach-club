@@ -1,0 +1,200 @@
+$mustard-color: #ffa800;
+$gray-color: #343434;
+$beige-color: #edddc4;
+body {
+      position: relative;
+      margin: 0;
+      font-family: Montserrat, sans-serif;
+  }
+h1 {
+  text-transform: uppercase;
+  color: $gray-color;
+  margin: 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+h3 {
+  color: $gray-color;
+  margin: 10px;
+  font-size: 1.75em;
+  font-weight: bold;  
+}
+h5 {
+  color: $gray-color;
+  margin: 10px;
+  font-size: 1.75em;
+}
+p, ul {
+  font-size: 1.2em;
+  color: $gray-color;
+}
+.container-fluid {
+  margin: 0 auto;
+}
+.navbar-brand {
+  margin: 0;
+}
+span {
+  font-family: Lobster, sans-serif;
+  color: $mustard-color;
+}
+.quotes {
+  text-align: right;
+  font-family:  Lobster, sans-serif;
+  background-color: $mustard-color;
+  margin: 15px 5px;
+}
+
+/* Section 0 */
+#section0 {
+     padding-top: 70px;
+     height: auto;
+     background: url(https://www.oasisbeach.club/image/welcome.jpg) no-repeat center center;
+     background-size: cover;
+     font-family: Montserrat, sans-serif;
+     h3 {
+       color: $mustard-color;
+       text-align: center;
+     }
+     h5 {
+       background: rgba(34,34,34, 0.65);
+       color: $beige-color;
+       text-align: center;
+       font-size: 2em;
+       margin-top: 70px;
+     }
+    ul{
+      margin: 0; 
+      padding: 0; 
+      list-style: none;
+    }
+     li {
+       background: rgba(34,34,34, 0.70);
+       color: $beige-color;
+       text-align: center;
+     }
+     #welcome {
+       height: 250px;
+     }
+ }
+
+
+
+/* Section 1-1 */
+#section11 {
+  margin: 0px;
+  padding-top: 20px;
+  height: auto;
+  background-color: $beige-color;
+     h3 {
+         text-align: center;
+         color: $mustard-color;
+         font-family: Lobster, sans-serif;
+         background: rgba(34,34,34, 0.60);
+         padding: 5px;
+     }
+     p, li {
+         color: $gray-color;
+     }
+}
+
+/* Section 1-2 */
+#section12 {
+  margin: 0px;
+  padding-top: 20px;
+  height: auto;
+  background-color: $beige-color;
+    h3 {
+      text-align: center;
+      color: $mustard-color;
+      font-family: Lobster, sans-serif;
+      background: rgba(34,34,34, 0.60);
+      padding: 5px;
+    }
+}
+
+/* Section 1-3 */
+#section13 {
+  margin: 0px;
+  padding-top: 20px;
+  height: auto;
+  background-color: $beige-color;
+    h3 {
+      text-align: center;
+      color: $mustard-color;
+      font-family: Lobster, sans-serif;
+      background: rgba(34,34,34, 0.60);
+      padding: 5px;
+    }
+}
+/* Section 2, Section 3, Section 4 */
+ #section2 {
+   margin: 0px;
+   padding: 20px;
+   background-color: $beige-color;
+}
+
+ #section3 {
+   margin: 0px;
+   padding: 20px;
+   background-color: $beige-color;
+   .table .table-header{
+      background: $mustard-color;
+      color:$gray-color;
+    }
+    .table .table-header .cell{
+      padding: 20px;
+    }
+   .table td {
+     padding: 20px;
+   }
+  }
+
+#section4 {
+   margin: 0;
+   padding: 10px 25px;
+   background-color: $beige-color;
+  .contacts {
+    margin-right: 5%;
+    margin-left: 5%;
+   }
+}
+
+.clearfix {
+  clear: both;
+}
+/* FOOTER */
+.footer {
+  padding: 15px 30%;
+  text-align: center;
+  background-color: #151515;
+}
+
+.footer p {
+  color: white;
+  font-size: .8em;
+  font-weight: 500;
+}
+
+.footer  span {
+  font-size: 1.2em;	
+}
+
+@media (max-width: 500px){
+  .img-responsive{
+    margin-bottom: 10px;
+   }
+  table {
+    overflow-x: auto;
+    display: block;
+    }
+  .table .table-header .cell{
+      padding:20px 5px;
+    }
+  }
+@media (max-width: 980px){
+  .img-responsive{
+    margin-bottom: 10px;
+   }
+  }
+ 
